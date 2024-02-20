@@ -11,6 +11,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
 
 // Exibe uma mensagem ao clicar no botão de download
 document.getElementById('downloadBtn').addEventListener('click', function () {
-    alert('Download iniciado! Confira seus arquivos.');
+    alert('Você está sendo redirecionado para uma nova página');
     window.location.href = 'https://bibliotecaelfica.org/category/dd-5e/';
 });
