@@ -1,4 +1,4 @@
-body {
+  body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #C974EC; /* Amarelo para destaque no hover */
+    color: #DBD5DD;
 }
 
 section {
@@ -62,7 +62,14 @@ article {
     transition: transform 0.3s ease;
 }
 
-article:hover {
+
+#Desbravando:hover {
+    transform: scale(1.02); /* Efeito de aumento no hover */
+}
+#prs:hover {
+    transform: scale(1.02); /* Efeito de aumento no hover */
+}
+#melhores:hover {
     transform: scale(1.02); /* Efeito de aumento no hover */
 }
 
