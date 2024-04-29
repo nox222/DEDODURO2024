@@ -6,5 +6,5 @@ document.getElementById('downloadBtn').addEventListener('click', function () {
     window.location.href = 'https://bibliotecaelfica.org/category/dd-5e/';
 });
 document.getElementById('Desbravando').addEventListener('click', function () {
-    window.location.href = 'fds.html';
+    window.location.href = 'index.html';
 });
