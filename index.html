@@ -1,197 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RPG Adventure Blog</title>
-    <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="lord.css">
+    <title>Comandos Principais para Criar um Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <h1>RPBLOG</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#posts">Posts</a></li>
-                <li><a href="#download">Download DnD 5E</a></li>
-            </ul>
-        </nav>
-
+        <div class="container">
+            <h1>Comandos Principais para Criar um Site</h1>
+            <p>Uma breve introdução aos comandos HTML e CSS essenciais para construir páginas web.</p>
+        </div>
     </header>
 
-    <section id="home">
-        <h2>Bem-vindo ao nosso Mundo RPG!</h2>
-        <p>Explore as terras da imaginação e mergulhe em aventuras épicas. Aqui, compartilhamos nossas histórias,
-            dicas e experiências no universo do RPG.</p>
-    </section>
-<article>
-    <section id="about">
-        <h2>Sobre Nós</h2>
-        <p>Somos um grupo de entusiastas do RPG, unidos pela paixão por criar mundos e contar histórias incríveis.
-            Neste blog, você encontrará dicas, tutoriais e relatos de nossas aventuras.</p>
-    </section>
-</article>
-          <h2>Últimos Posts</h2>
-    <section id="Desbravando">
+    <main>
+        <div class="container">
+            <section class="html-section">
+                <h2>Comandos HTML Essenciais</h2>
+                
+                <div class="command">
+                    <p><strong>1. &lt;h1&gt; a &lt;h6&gt;:</strong> Definem títulos em ordem de importância, com &lt;h1&gt; sendo o mais importante e &lt;h6&gt; o menos importante.</p>
+                    <img src="h1_to_h6_example.png" alt="Exemplo de títulos de h1 a h6">
+                </div>
 
-        <article id= "ss">
-            <h3>Desbravando as Terras Desconhecidas</h3>
-            <img src="Mundo.png" alt="Imagem representativa do post">
-            <p>Em nossa última campanha, exploramos terras desconhecidas cheias de mistérios. Descubra as criaturas
-                que encontramos e os desafios que superamos.</p>
-        </article>
-  </section>
-  <section id="prs">
-        <article>
-            <h3>Construindo Personagens Cativantes</h3>
-            <img src="Perso.png" alt="Imagem representativa do post">
-            <p>A arte de criar personagens envolventes vai além das estatísticas. Neste post, compartilhamos dicas para
-                dar vida aos seus heróis e vilões.</p>
-        </article>
-</section>
-  <section id="melhores">
-        <article>
-            <h3>Melhores Momentos da Última Sessão</h3>
-            <img src="Mesa.png" alt="Imagem representativa do post">
-            <p>Relembramos os momentos épicos e engraçados da última sessão. Risadas, surpresas e reviravoltas que
-                fizeram nossa aventura inesquecível.</p>
-        </article>
-</section>
-        <!-- Adicione mais posts conforme necessário -->
-    </section>
+                <div class="command">
+                    <p><strong>2. &lt;p&gt;:</strong> Usado para definir parágrafos de texto.</p>
+                    <img src="p_example.png" alt="Exemplo de parágrafo usando tag p">
+                </div>
 
-    <section id="download">
-        <h2>Download DnD 5E</h2>
-        <p>Fique à vontade para baixar o livro de regras do DnD 5E.</p>
-        <button id="downloadBtn">Baixar Agora</button>
-    </section>
+                <div class="command">
+                    <p><strong>3. &lt;img&gt;:</strong> Insere imagens em uma página, definindo a fonte e texto alternativo.</p>
+                    <img src="img_example.png" alt="Exemplo de inserção de imagem usando tag img">
+                </div>
+            </section>
+
+            <section class="css-section">
+                <h2>Comandos CSS Essenciais</h2>
+                
+                <div class="command">
+                    <p><strong>1. color:</strong> Define a cor do texto.</p>
+                    <img src="color_example.png" alt="Exemplo de uso de color no CSS">
+                </div>
+
+                <div class="command">
+                    <p><strong>2. font-size:</strong> Define o tamanho da fonte do texto.</p>
+                    <img src="font_size_example.png" alt="Exemplo de uso de font-size no CSS">
+                </div>
+
+                <div class="command">
+                    <p><strong>3. font-family:</strong> Especifica a família de fontes utilizada em um elemento.</p>
+                    <img src="font_family_example.png" alt="Exemplo de uso de font-family no CSS">
+                </div>
+            </section>
+        </div>
+    </main>
 
     <footer>
-        <p>&copy; 2024 RPG Adventure. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>Desenvolvido por [Seu Nome]. Todos os direitos reservados © 2024.</p>
+        </div>
     </footer>
-
-    <script src="script.js"></script>
-  
-  
-  <!--CSS AQUI!!!!!!!!!-->
-<style>
-      body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #2c3e50;
-    color: #ecf0f1;
-     /* ... (restante do código) */
-    min-height: 100vh; /* Garante que a altura mínima seja a altura da viewport */
-    position: relative; /* Permite posicionar elementos relativos a este */
-}
-
-header {
-    background-color: #5E2775;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 3px solid #fff;
-}
-
-.logo {
-    width: 50px; /* Ajuste conforme necessário */
-    height: auto;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    margin: 0 1em;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #DBD5DD;
-}
-
-section {
-    margin: 2em;
-}
-
-h2 {
-    color: #C974EC;
-    border-bottom: 2px solid #C974EC;
-    padding-bottom: 0.5em;
-}
-
-article {
-    background-color: #34495e;
-    color: #ecf0f1;
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-
-#Desbravando:hover {
-    transform: scale(1.02); /* Efeito de aumento no hover */
-}
-#prs:hover {
-    transform: scale(1.02); /* Efeito de aumento no hover */
-}
-#melhores:hover {
-    transform: scale(1.02); /* Efeito de aumento no hover */
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 1em;
-}
-
-button {
-    background-color: #5E2775;
-    color: #fff;
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #ffd700; /* Amarelo para destaque no hover */
-}
-
-footer {
-    background-color: #5E2775;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    border-top: 3px solid #fff;
-  /* ... (restante do código) */
-    position: relative;
-    bottom: 0%;
-    width: 100%;
-}
-
-</style>
 </body>
-
 </html>
