@@ -3,63 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Os Principais Comandos para Criar um Site</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Comandos Essenciais para Criar um Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header>
-        <div class="container">
-            <h1>Os Principais Comandos para Criar um Site</h1>
-            <p>Conheça os comandos básicos de HTML e CSS para desenvolver um site.</p>
-        </div>
+        <h1>Os Principais Comandos para Criar um Site</h1>
+        <p>Entenda como construir a estrutura básica e aplicar estilos ao seu site com HTML e CSS.</p>
+        <button class="cta-button">Explore Mais</button>
     </header>
 
-    <main>
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="#html-estrutura">Estrutura HTML</a></li>
+            <li><a href="#html-titulos-paragrafos">Títulos e Parágrafos</a></li>
+            <li><a href="#html-imagens-links">Imagens e Links</a></li>
+            <li><a href="#css-estilizando-textos">Estilizando Textos</a></li>
+            <li><a href="#css-layout-design">Layout e Design</a></li>
+            <li><a href="#css-botoes-links">Botões e Links</a></li>
+            <li><a href="#css-animacoes">Animações</a></li>
+            <li><a href="#css-media-queries">Media Queries</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo -->
+    <section id="html-estrutura" class="content-section">
         <div class="container">
-            <section class="html-section">
-                <h2>Comandos HTML Essenciais</h2>
-                
-                <div class="command">
-                    <p><strong>&lt;h1&gt; a &lt;h6&gt;:</strong> Definem títulos em ordem de importância, com &lt;h1&gt; sendo o mais importante e &lt;h6&gt; o menos importante.</p>
-                    <img src="h1_to_h6_example.png" alt="Exemplo de títulos de h1 a h6">
-                </div>
-
-                <div class="command">
-                    <p><strong>&lt;p&gt;:</strong> Usado para definir parágrafos de texto.</p>
-                    <img src="p_example.png" alt="Exemplo de parágrafo usando tag p">
-                </div>
-
-                <div class="command">
-                    <p><strong>&lt;img&gt;:</strong> Insere imagens em uma página, definindo a fonte e texto alternativo.</p>
-                    <img src="img_example.png" alt="Exemplo de inserção de imagem usando tag img">
-                </div>
-            </section>
-
-            <section class="css-section">
-                <h2>Comandos CSS Essenciais</h2>
-                
-                <div class="command">
-                    <p><strong>color:</strong> Define a cor do texto, aplicável a títulos, parágrafos e outros elementos.</p>
-                    <img src="color_example.png" alt="Exemplo de uso de color no CSS">
-                </div>
-
-                <div class="command">
-                    <p><strong>font-size:</strong> Define o tamanho da fonte do texto, podendo ser em pixels, porcentagens ou em.</p>
-                    <img src="font_size_example.png" alt="Exemplo de uso de font-size no CSS">
-                </div>
-
-                <div class="command">
-                    <p><strong>font-family:</strong> Especifica a família de fontes utilizada em um elemento, como Arial ou Times New Roman.</p>
-                    <img src="font_family_example.png" alt="Exemplo de uso de font-family no CSS">
-                </div>
-            </section>
+            <h2>Estrutura Básica de um Documento HTML</h2>
+            <p>Todo site começa com a estrutura básica de um documento HTML. Essa estrutura é composta por tags que indicam o início e o fim do conteúdo, além de outras tags importantes como <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, e <code>&lt;body&gt;</code>. Essas tags são essenciais para organizar o conteúdo da página e definir como ela será exibida no navegador.</p>
+            <img src="1.png" alt="Estrutura Básica de um Documento HTML">
         </div>
-    </main>
+    </section>
 
+    <section id="html-titulos-paragrafos" class="content-section">
+        <div class="container">
+            <h3>Uso de Títulos e Parágrafos no HTML</h3>
+            <p>Os títulos e parágrafos são a base do conteúdo textual de um site. Tags como <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> são usadas para definir títulos, cada uma com um nível de importância, enquanto a tag <code>&lt;p&gt;</code> é usada para criar parágrafos. A correta hierarquia de títulos e o uso de parágrafos ajudam a organizar o conteúdo, tornando-o mais legível e acessível para os usuários.</p>
+            <img src="2.png" alt="Uso de Títulos e Parágrafos no HTML">
+        </div>
+    </section>
+
+    <section id="html-imagens-links" class="content-section">
+        <div class="container">
+            <h3>Inserção de Imagens e Links no HTML</h3>
+            <p>As imagens e links são elementos cruciais para enriquecer a experiência do usuário em um site. A tag <code>&lt;img&gt;</code> permite adicionar imagens ao conteúdo, enquanto a tag <code>&lt;a&gt;</code> cria links que podem direcionar para outras páginas ou sites. Utilizar essas tags de maneira adequada é fundamental para uma navegação eficiente e visualmente agradável.</p>
+            <img src="3.png" alt="Inserção de Imagens e Links no HTML">
+        </div>
+    </section>
+
+    <section id="css-estilizando-textos" class="content-section">
+        <div class="container">
+            <h2>Estilizando Textos com CSS</h2>
+            <p>O CSS (Cascading Style Sheets) é utilizado para aplicar estilos aos textos de um site, como cores, fontes, tamanhos e espaçamentos. Com comandos como <code>color</code>, <code>font-size</code>, e <code>font-family</code>, você pode transformar um texto simples em algo visualmente atraente e harmonioso com o design do seu site.</p>
+            <img src="4.png" alt="Estilizando Textos com CSS">
+        </div>
+    </section>
+
+    <section id="css-layout-design" class="content-section">
+        <div class="container">
+            <h3>Layout e Design com CSS</h3>
+            <p>O CSS também é uma ferramenta poderosa para definir o layout e design de uma página. Com propriedades como <code>display</code>, <code>margin</code>, <code>padding</code>, e <code>flexbox</code>, é possível controlar como os elementos são organizados na página, criando layouts responsivos e esteticamente agradáveis.</p>
+            <img src="5.png" alt="Layout e Design com CSS">
+        </div>
+    </section>
+
+    <section id="css-botoes-links" class="content-section">
+        <div class="container">
+            <h3>Estilizando Botões e Links com CSS</h3>
+            <p>Botões e links desempenham um papel importante na interação do usuário com o site. Com CSS, é possível criar botões e links que se destacam, utilizando propriedades como <code>background-color</code>, <code>border</code>, e <code>hover</code> para melhorar a usabilidade e a aparência desses elementos interativos.</p>
+            <img src="6.png" alt="Estilizando Botões e Links com CSS">
+        </div>
+    </section>
+
+    <section id="css-animacoes" class="content-section">
+        <div class="container">
+            <h3>Animações com CSS</h3>
+            <p>As animações em CSS podem trazer vida ao seu site, tornando-o mais dinâmico e envolvente. Com propriedades como <code>transition</code> e <code>animation</code>, você pode criar efeitos de movimento e transição que aprimoram a experiência do usuário.</p>
+            <img src="7.png" alt="Animações com CSS">
+        </div>
+    </section>
+
+    <section id="css-media-queries" class="content-section">
+        <div class="container">
+            <h2>Responsividade com Media Queries</h2>
+            <p>Media Queries são uma parte essencial do CSS, permitindo que seu site se adapte a diferentes tamanhos de tela. Com Media Queries, você pode aplicar estilos específicos para dispositivos móveis, tablets e desktops, garantindo que seu site seja acessível e funcional em qualquer dispositivo.</p>
+            <img src="8.png" alt="Responsividade com Media Queries">
+        </div>
+    </section>
+
+    <!-- Rodapé -->
     <footer>
-        <div class="container">
-            <p>Desenvolvido por [Seu Nome]. Todos os direitos reservados © 2024.</p>
-        </div>
+        <p>&copy; 2024 Criação de Sites. Todos os direitos reservados.</p>
+        <ul class="social-icons">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
     </footer>
 </body>
 </html>
