@@ -1,87 +1,152 @@
-/* Estilo geral do corpo */
+/* Estilos globais */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Container centralizado e com espaçamento */
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-/* Estilo para o cabeçalho */
+/* Estilo para o header */
 header {
-    background: #35495e;
+    background: linear-gradient(to right, #0073e6, #00aaff);
     color: white;
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 header h1 {
-    font-size: 30px;
-    font-family: Arial, sans-serif;
-    color: blue;
+    font-size: 36px;
+    margin: 0;
 }
 
 header p {
     font-size: 18px;
-    margin-top: 0;
+    margin: 10px 0;
 }
 
-/* Estilo para os títulos principais e secundários */
-h2 {
-    font-size: 20px;
-    font-family: Arial, sans-serif;
-    color: red;
-    border-bottom: 2px solid #d35400;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
+.cta-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #c70039;
+}
+
+/* Estilo para o menu de navegação */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #0073e6;
+}
+
+/* Estilo para as seções de conteúdo */
+.content-section {
+    padding: 40px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Título principal (h2) */
+.content-section h2 {
+    font-size: 30px; /* Tamanho 30 */
+    font-family: Arial, sans-serif; /* Fonte Arial */
+    color: blue; /* Cor Azul */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Título secundário (h3) */
+.content-section h3 {
+    font-size: 20px; /* Tamanho 20 */
+    font-family: Arial, sans-serif; /* Fonte Arial */
+    color: red; /* Cor Vermelho */
+    margin-bottom: 15px;
 }
 
 /* Estilo para os parágrafos */
-p {
-    font-size: 15px;
-    font-family: 'Times New Roman', serif;
-    color: #333;
-    margin: 15px 0;
+.content-section p {
+    font-size: 15px; /* Tamanho 15 */
+    font-family: 'Times New Roman', serif; /* Fonte Times New Roman */
+    color: black; /* Cor Preto */
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 /* Estilo para as imagens */
-img {
-    display: block;
-    margin: 10px 0;
+.content-section img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #333;
-    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
-}
-
-/* Estilo para as seções */
-section {
-    margin-bottom: 40px;
-}
-
-/* Estilo para cada comando */
-.command {
-    background: #ecf0f1;
-    padding: 15px;
-    border-radius: 5px;
     margin-bottom: 20px;
-    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #f9f9f9;
 }
 
-/* Estilo para o rodapé */
+/* Estilo para o footer */
 footer {
-    background: #35495e;
+    background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #0073e6;
 }
